@@ -53,5 +53,3 @@ $response = $kernel->handle(
 )->send();
 
 $kernel->terminate($request, $response);
-
-echo '<h1>Hello</h1>';
